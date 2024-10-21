@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+/**** breakpoints*****/
+
+/* Smartphones portrait >>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+/* Smartphones Landscape >>>>>>>>>>>>>>>>>>>>>>>>>> */
+@media (min-width: 576px) {
+    body {
+    background-color: green;
+    text-align: center;
+}
+}
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+/* Tablet portrait >>>>>>>>>>>>>>>>>>>>>>>>>> */
+@media (min-width: 768px) {
+    body {
+    background-color: rgb(26, 64, 218);
+    text-align: center;
+}
+}
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+/* Tablet Landscape >>>>>>>>>>>>>>>>>>>>>>>>>> */
+@media (min-width: 992px) {
+    body {
+    background-color: rgb(240, 23, 16);
+    text-align: center;
+}
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+/* PCs / Notebooks >>>>>>>>>>>>>>>>>>>>>>>>>> */
+@media (min-width: 1200px) {
+    body {
+    background-color: rgb(16, 240, 27);
+    color: aqua;
+    text-align: center;
+}
+}
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+/* telas fullhd / 4K / smartTv >>>>>>>>>>>>>>>>>>>>>>>>>> */
+@media (min-width: 1200px) {
+    body {
+    background-color: rgb(169, 16, 240);
+    color: aliceblue;
+    text-align: center;
+}
+}
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
